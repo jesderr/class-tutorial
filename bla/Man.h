@@ -19,25 +19,24 @@ public:
 	
 	//constructors
 	Man();
+
 	Man(std::string name, std::string surname);
 
-	Man();
-	Man(std::string name, std::string surname, std::int weight, std::int height);
+	Man(std::string name, std::string surname, int weight, int height);
 
 	//methods
 	std::string ToTalk(std::string s);
-	int CalculateSum();
-	int CalculateMult();
+	int CalculateSumAndMult(int a, int b, int c, int d);
+	//int CalculateMult(int a,int b);
 
 	//setters
-	int GetCalculateSum();
-	int GetCalculateMult();
-	std::string GetToTalk();
+	int GetWeight();
+	int GetHeight();
+	
 
 	//getters
-	void setCalculateSum(int p);
-	void setCalculateMult(int l);
-	void setToTalk(std::string m);
+	void setWeight(int p);
+	void setHeight(int l);
 
 };
 
