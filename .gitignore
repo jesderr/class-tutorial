@@ -30,3 +30,28 @@
 *.exe
 *.out
 *.app
+
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+build/
+
+# Roslyn cache directories
+*.ide/
+.vs/
