@@ -13,8 +13,9 @@ public:
 	//fields
 	std::string name;
 	std::string surname;
-	std::string ColorOfHair;
-	std::string ColorOfEyes;
+	std::string Color_Of_Hair;
+	std::string Color_Of_Eyes;
+	std::string profession;
 
 	
 	//constructors
@@ -25,9 +26,10 @@ public:
 	Man(std::string name, std::string surname, int weight, int height);
 
 	//methods
-	std::string ToTalk(std::string s);
+	std::string To_Talk(std::string s);
 	int CalculateSumAndMult(int a, int b, int c, int d);
-	//int CalculateMult(int a,int b);
+	int Calculate_Mult(int a,int b,int c);
+	int Calculate_Sum(int a, int b,int c);
 
 	//setters
 	int GetWeight();

@@ -1,13 +1,17 @@
 #include <iostream>
 #include "Man.h"
 
-int main(int a, int b, int c, int d)
+int main(int a , int b , int c)
 {
 	Man child = Man();
+	std::cout << child.To_Talk("Hello world") << std::endl;
 	std::cout << child.name<<" "<<child.surname<< std::endl;
-	std::cout << child.ColorOfEyes << " " << child.ColorOfHair << std::endl;
+	std::cout << child.Color_Of_Eyes << " " << child.Color_Of_Hair << std::endl;
 	std::cout << child.GetHeight() << " " << child.GetWeight() << std::endl;
-	std::cout << child.CalculateSumAndMult(a, b, c, d) << std::endl;
+	std::cout << child.profession << std::endl;
+	std::cout << child.Calculate_Mult( a, b, c) << std::endl;
+	std::cout << child.Calculate_Sum(a, b, c) << std::endl;
+
 	
 
 	system("pause");
