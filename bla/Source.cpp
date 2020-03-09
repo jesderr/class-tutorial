@@ -4,7 +4,7 @@
 
 int main()
 {
-	int result = sqr(5);
+	int result = discriminant(2, 4, 599);
 	std::cout << result << std::endl;
 	system("pause");
 	return 0;
